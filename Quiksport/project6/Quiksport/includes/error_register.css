@@ -1,0 +1,71 @@
+/* Error message container */
+.error-container {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Error message text */
+.error {
+  color: #721c24;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Individual error items */
+.error-item {
+  color: #721c24;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Optional: Add some padding and margin for a better layout */
+#form-container {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#form-container input[type="text"], #form-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#form-container input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+#form-container input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

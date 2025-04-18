@@ -1,0 +1,248 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#text {
+  font-family: Fantasy, Copperplate;
+  font-size: xx-large;
+}
+
+#text1 {
+  font-family: sans-serif, helvetica;
+  
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 10;
+  display: flex;
+}
+
+.menu ul li {
+  margin: 0 10px;
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.background-image {
+  width: 100%; /* Makes the image span the entire width */
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  bottom: 8px;
+  -webkit-text-stroke: 1px black;
+}
+
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  bottom: 100px;
+  -webkit-text-stroke: 1px black;
+}
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+ 
+
+.search-bar-container {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+  width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.search-field label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.search-field input,
+.search-field select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-field input:focus,
+.search-field select:focus {
+  border-color: #007BFF;
+}
+
+/* Search button styling */
+.search-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.search-button span {
+  font-weight: bold;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-content {
+  padding: 15px;
+}
+.card-content h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+.card-content p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-top: 1px solid #eee;
+}
+.card-actions a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.view-btn {
+  background-color: #e0e0e0;
+  color: #333;
+}
+.view-btn:hover {
+  background-color: #d6d6d6;
+}
+.book-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+.book-btn:hover {
+  background-color: #0056b3;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logout-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.logout-btn {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  background-color: #0056b3;
+}
+
+#logo {
+  color: #0000ff; /* Dark blue blue text */
+  font-weight: bold;
+  margin: 0;
+}
